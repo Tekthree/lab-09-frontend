@@ -1,31 +1,30 @@
-# Getting Started with Create React App\
+# Auth Module Final Project
+# lab-09-frontend
+Create a new application using your API Server and Authentication System
 
 
-# Authors - Tek Jones, Sunny Lee# lab-09-frontend
-
-
-
+# Authors - Tek Jones, Sunny Lee
 ---
 
-## Deployment - https://tekjones-bearer-auth.herokuapp.com/
+## Deployment frontend - https://affectionate-mccarthy-a27bd4.netlify.app
+## Deployment backend - https://lab401-09.herokuapp.com/
 ---
 
-## test
-- npm run test
+## run start
+- npm start
 
-## start
-- node .
 
 ## UML - ![UML](./uml.png)
 
-## Routes
-* signup
-- req, res, next
-- JSON response: {"username":"value", "password":"value"}
+## Routes to backend
+/signup
+- to backend database
+- recieve user.data
 
-* signin
-- req, res, next
-- JSON response: none
-- Authentication: basic (username and password)
+/signin
+- to backend database
+- recieve user.data
+
+
 
 
