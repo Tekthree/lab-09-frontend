@@ -3,7 +3,16 @@
 .search-card {
   padding: 2%;
   background-color: #0d4086 !important;
-  width: 600px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.shopping-card {
+  padding: 2%;
+  background-color: #3a3e46 !important;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
